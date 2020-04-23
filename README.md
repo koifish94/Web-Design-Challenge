@@ -6,7 +6,6 @@ For this project we'll be creating a visualization dashboard website using visua
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 Website Requirements
-For reference, see the "Screenshots" section below.
 The website must consist of 7 pages total, including:
 
 
@@ -36,8 +35,7 @@ Uses a bootstrap grid for the visualizations. The grid must be two visualization
 
 
 
------A "Data" page that:
-
+-----A "Data" page that: 
 Displays a responsive table containing the data used in the visualizations. The table must be a bootstrap table component.
 
 
