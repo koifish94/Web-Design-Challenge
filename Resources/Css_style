@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(255,255,255);
+}
+
+.Header{
+    background-color: rgb(211,211,211);  
+}
+
+
+.title {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(255,255,255);
+    margin-left: 10%;     
+}
+
+
+.navbar-nav{
+    font-size: 20px;
+}
+
+.navbar li:hover{
+    background: rgb(240,255,240);
+}
+
+
+
+#figure 
+{
+    position: relative;
+}
+
+#main-box 
+{
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+#image {
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+#plot-image {
+    width: 48%;
+}
+
+.comp-column {
+    float: left;
+    width: 48%;
+    padding: 5px;
+    text-align: center;
+}
+
+   
+.activeimg {
+    border: solid;
+    border-color: #rgb(127,255,212);
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+h1, h2, h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30 px;
+    
+}
+
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/** Media Quary **/
+@media (max-width: 700px){
+
+.navbar{
+        padding: 10px;
+        background-color; rgb(255,255,255),
+}
+    
+.collapse{
+        background: rgb(255,255,255);
+}
+    
+.navbar-light{
+        background-color:rgb(240,255,255); 
+}
+    
+.dropdown-menu{
+        border: none;
+        border-radius: 0px;
+}
+ 
+
+.navbar-toggler{
+        margin-right: 25px;
+}
+    
+    
+.reimage{
+        width:30%;
+}
+
+.comp-column {
+        width: 90%;
+}
+
+
+}
